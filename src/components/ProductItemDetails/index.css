@@ -1,0 +1,143 @@
+.productDetails-item-container {
+  height: 100vh;
+  display: flex;
+  padding: 50px;
+}
+.image-container {
+  min-width: 400px;
+}
+.product-image {
+  width: 500px;
+  height: 600px;
+  border-radius: 10px;
+}
+.details-container {
+  width: 400px;
+  padding-left: 50px;
+}
+.title {
+  font-size: 35px;
+  font-family: 'Roboto';
+  color: #1e293b;
+}
+.price {
+  font-size: 15px;
+  font-family: 'Roboto';
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+.rating-reviews-container {
+  display: flex;
+  align-items: center;
+}
+.rating-container {
+  width: 70px;
+  height: 40px;
+  margin-right: 20px;
+}
+.star-image {
+  width: 20px;
+}
+.total-reviews {
+  font-size: 15px;
+  font-family: 'Roboto';
+  color: #616e7c;
+}
+.description {
+  font-size: 15px;
+  font-family: 'Roboto';
+  color: #616e7c;
+}
+.availability-container {
+  display: flex;
+}
+.availability-label {
+  font-size: 15px;
+  font-family: 'Roboto';
+  color: #12022f;
+  font-weight: bold;
+  padding-right: 5px;
+}
+.availability {
+  font-size: 15px;
+  font-family: 'Roboto';
+  color: #616e7c;
+}
+.brand-container {
+  display: flex;
+}
+.brand-label {
+  font-size: 15px;
+  font-family: 'Roboto';
+  color: #12022f;
+  font-weight: bold;
+  padding-right: 5px;
+}
+.brand {
+  font-size: 15px;
+  font-family: 'Roboto';
+  color: #616e7c;
+  padding-bottom: 30px;
+}
+.count-container {
+  display: flex;
+  margin-top: 40px;
+}
+.button {
+  background-color: transparent;
+  outline: none;
+  border-width: 0px;
+  cursor: pointer;
+}
+.count {
+  font-size: 15px;
+  font-family: 'Roboto';
+  color: #616e7c;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.add-cart-button {
+  height: 35px;
+  width: 120px;
+  background-color: #3b82f6;
+  border-width: 0px;
+  outline: none;
+  cursor: pointer;
+  color: #ffffff;
+  border-radius: 8px;
+  font-size: 12px;
+  margin-top: 35px;
+}
+.similar-products-heading {
+  font-size: 30px;
+  font-family: 'Roboto';
+  padding-top: 100px;
+  padding-left: 50px;
+}
+.similar-products-container {
+  display: flex;
+}
+.failureView-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.errorView-image {
+  width: 40%;
+}
+
+.shopping-button {
+  background-color: #3b82f6;
+  color: #ffffff;
+  height: 35px;
+  width: 150px;
+  border-width: 0px;
+  outline: none;
+  cursor: pointer;
+}
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
